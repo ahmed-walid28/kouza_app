@@ -1,0 +1,29 @@
+# flutter pub run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "assets/kouza_icon_app.png"
+
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  icon_size: 100 # min:48, max:256, default: 48
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "#1B5E20" # Green background matching Kooza theme
+  adaptive_icon_foreground: "assets/kouza_icon_app.png" # For adaptive icons on Android
+
+  # image_path_ios: "assets/kouza_icon_app.png"
+  remove_alpha_channel_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/kouza_icon_app.png"
+    background_color: "#1B5E20"
+    theme_color: "#1B5E20"
+
+  windows:
+    generate: true
+    image_path: "assets/kouza_icon_app.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+  macos:
+    generate: true
+    image_path: "assets/kouza_icon_app.png"
