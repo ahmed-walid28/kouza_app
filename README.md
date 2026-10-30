@@ -1,5 +1,9 @@
 # Kooza - Smart Agricultural Assistant
 
+<p align="center">
+  <img src="assets/kouza_icon_app.png" alt="Kooza app icon" width="220">
+</p>
+
 Kooza is a Flutter application designed to help farmers, agriculture students,
 and researchers improve crop production and manage soil, irrigation, and plant
 health. The app combines local machine learning, agricultural knowledge, an AI
